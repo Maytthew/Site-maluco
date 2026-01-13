@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Foco 🤓</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>⏱️ Foco</h1>
+
+    <div class="config">
+      <label>Minutos:</label>
+      <input type="number" id="minutes" min="1" value="25">
+    </div>
+
+    <div id="timer">25:00</div>
+    <p id="status">Pronto para começar</p>
+
+    <div class="buttons">
+      <button id="start">Iniciar</button>
+      <button id="pause">Pausar</button>
+      <button id="skip">Pular</button>
+      <button id="reset">Resetar</button>
+    </div>
+  </div>
+
+  <audio id="som" src="audio.mp3"></audio>
+  <script src="script.js"></script>
+
+</body>
+</html>
